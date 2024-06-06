@@ -58,9 +58,10 @@ section{
 }
 .home{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    margin-top: 15rem;
+    margin: 15rem  0rem 0rem 3rem;
+    
 }
 .home-content h3{
     font-size: 3.2rem;
@@ -138,9 +139,10 @@ span{
     align-items: center;
     gap: 2rem;
     background:var(--snd-bf-color);
+    padding-left: 5rem;
 }
 .about-img img{
-    width: 35vw;
+    width: 25vw;
 }
 .heading{
     text-align: center;
@@ -210,10 +212,14 @@ span{
     overflow: hidden;
     display: flex;
 }
+.portfolio-box{
+    
+}
 .portfolio-box img{
     width: 100%;
     transition: .5s ease;
     opacity: 0.7;
+    height: 22rem  
 }
 .portfolio-box .portfolio-layer{
     position: absolute;
